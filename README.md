@@ -1,6 +1,6 @@
 # Docs Adtopy
 
-Using this combo: Hugo CMS + docsy theme + github + netlify
+Using this combo: **Hugo CMS + docsy theme + github + netlify**
 
 ### Step 1
 
@@ -40,6 +40,10 @@ Note that the following approach [forks](https://help.github.com/en/articles/for
     <pre>
     git clone --recurse-submodules --depth 1 <em>https://github.com/my/example.git</em>
     </pre>
+    
+In our case, should be:
+
+    git clone --recurse-submodules --depth 1 https://github.com/frodriguezsmartclip/docs-adtopy.git
 
 You can now edit your local versions of the site's source files. To preview your site, go to your site root directory and run `hugo server`. By default, your site will be available at http://localhost:1313/. To push changes to your new repo, go to your site root directory and use `git push`.
 
