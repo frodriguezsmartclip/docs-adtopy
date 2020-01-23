@@ -1,6 +1,6 @@
 # :computer: Docs Adtopy (Smartclip)
 
-Using this combo: **Hugo CMS + docsy theme + github + netlify**
+Using this combo: **Hugo CMS + docsy theme + github + netlify** :star:
 
 ## Step 1
 
