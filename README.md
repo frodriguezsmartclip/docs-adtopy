@@ -53,3 +53,7 @@ Follow the instructions in [Host on Netlify](https://gohugo.io/hosting-and-deplo
 1. Click **Deploy site**.
 
 If you have an existing deployment you can view and update the relevant information by selecting the site from your list of sites in Netlify, then clicking **Site settings** - **Build and deploy**. Ensure that **Ubuntu Xenial 16.04** is selected in the **Build image selection** section - if you're creating a new deployment this is used by default. You need to use this image to run the extended version of Hugo.
+
+Si todo ha ido bien, enhorabuena, tenemos **Docs-Adtopy** configurado con Netlify para hacer desarrollo continuo apoyándonos en GitHub + Netlify. :white_check_mark:
+
+:link: La URL del proyecto de documentación está accesible en: [Docs-Adtopy web en Netlify](https://docs-adtopy.netlify.com/)
