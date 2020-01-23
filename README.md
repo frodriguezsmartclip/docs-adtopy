@@ -4,7 +4,7 @@ Using this combo: **Hugo CMS + docsy theme + github + netlify**
 
 ## Step 1
 
-Install Hugo CMS on  [Windows 10](https://imalexissaez.github.io/2018/07/08/instalando-hugo-en-windows/) (TODO: version Linux or Mac)
+Install [Hugo CMS](https://gohugo.io/getting-started/quick-start/) on  [Windows 10](https://imalexissaez.github.io/2018/07/08/instalando-hugo-en-windows/) (TODO: version Linux or Mac)
 
 ## Step 2
 
