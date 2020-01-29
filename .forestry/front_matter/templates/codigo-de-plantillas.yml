@@ -5,12 +5,20 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: text
   name: linkTitle
   label: linkTitle
+  config:
+    required: true
 - type: number
   name: weight
   label: weight
+  config:
+    required: true
 - type: text
   name: description
   label: description
+  config:
+    required: true
