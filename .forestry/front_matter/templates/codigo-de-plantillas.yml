@@ -22,3 +22,5 @@ fields:
   label: description
   config:
     required: true
+pages:
+- content/en/plantillas/Código plantillas/código-de-plantillas.md
