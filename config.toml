@@ -11,8 +11,9 @@ enableEmoji = true
 enableGitInfo = true
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+# Idioma español cambiando el 'contentDir' y 'defaultContentLanguage' a 'es' (u otro idioma que esté en i18n/xx.toml)
+contentDir = "content/es"
+defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -48,16 +49,21 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+#id = "UA-00000000-0"
 
 # Language configuration
 
 [languages]
-[languages.en]
+# [languages.en]
+# title = "Adtopy"
+# description = "Docs related to Adtopy for smartclip"
+# languageName ="English"
+# weight = 1
+# Idioma Español que tira de la carpeta i18n/es.toml
+[languages.es]
 title = "Adtopy"
-description = "Docs related to Adtopy for smartclip"
-languageName ="English"
-# Weight used for sorting.
+description = "Documetacion relacionado con Adtopy (Smartclip)"
+languageName ="Español"
 weight = 1
 
 
@@ -71,6 +77,7 @@ weight = 1
 [params]
 # useHLJS = true
 copyright = "Smartclip"
+copyright_url = "https://www.smartclip.com/es"
 privacy_policy = "https://www.smartclip.com/privacy-policy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -90,7 +97,7 @@ github_project_repo = "https://github.com/frodriguezsmartclip/docs-adtopy"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 # IMPORTANTE: Descomentando esta linea, sale la busqueda de Google custom search
-# gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+#gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false

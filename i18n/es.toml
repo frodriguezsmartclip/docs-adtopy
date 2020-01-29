@@ -1,0 +1,39 @@
+# UI strings. Buttons and similar.
+[ui_pager_prev]
+other = "Anterior"
+
+[ui_pager_next]
+other = "Siguiente"
+
+[ui_read_more]
+other = "Leer más"
+
+[ui_search]
+other = "Buscar en docs-adtopy..."
+
+# Used in sentences such as "Posted in News"
+[ui_in]
+other = "en"
+
+# Footer text
+[footer_all_rights_reserved]
+other = "- Derechos reservados -"
+[footer_privacy_policy]
+other = "Política de privacidad"
+
+
+# Post (blog, articles etc.)
+[post_byline_by]
+other = "Por"
+[post_created]
+other = "Creado"
+[post_last_mod]
+other = "Última modificación: "
+[post_edit_this]
+other = "Editar página en GitHub."
+[post_create_issue]
+other = "Crear una nueva petición para la documentación."
+[post_create_project_issue]
+other = "Create project issue"
+[post_posts_in]
+other = "Posts en"
