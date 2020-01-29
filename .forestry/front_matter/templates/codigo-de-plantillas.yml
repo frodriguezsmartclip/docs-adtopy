@@ -23,4 +23,5 @@ fields:
   config:
     required: true
 pages:
+- content/en/plantillas/Código plantillas/Nomenclatura basica/nomenclatura-básica.md
 - content/en/plantillas/Código plantillas/código-de-plantillas.md
