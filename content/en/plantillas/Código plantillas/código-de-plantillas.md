@@ -1,7 +1,7 @@
 +++
 description = "Código de plantillas que se muestra la nomenclatura del código de plantillas para Adtopy"
 linkTitle = "Nomenclatura"
-title = "Nomenclatura templating"
+title = "Nomenclatura"
 weight = 3
 
 +++
