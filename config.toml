@@ -3,7 +3,7 @@ title = "Help Adtoyp # SmartClip"
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy"]
+theme = ["adtopy"]
 
 enableEmoji = true
 
@@ -11,8 +11,8 @@ enableEmoji = true
 enableGitInfo = true
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/es"
+defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -53,12 +53,20 @@ id = "UA-00000000-0"
 # Language configuration
 
 [languages]
-[languages.en]
+# Si se quiere poner otro idioma más, descomentar lo siguiente y añadir más idiomas en "content/en"
+# Luego, en la parte de "themes/adtopy/layouts/partials/navbar.html", línea 25-28 hace la llamada al "navbar-lang-selector.html" que mira aqui
+# y busca más "languages.**", si hay más, muestra el languageName y busca en el content/idioma_nuevo  FIN :)
+# [languages.en]
+# title = "Adtopy"
+# description = "Docs related to Adtopy for smartclip"
+# languageName ="English"
+# weight = 1
+[languages.es]
 title = "Adtopy"
-description = "Docs related to Adtopy for smartclip"
-languageName ="English"
+description = "Documentacion relacionada con Adtopy (Smartclip)"
+languageName ="Spanish"
 # Weight used for sorting.
-weight = 1
+weight = 2
 
 
 [markup]
