@@ -1,10 +1,10 @@
 ---
 title: "Sistema Plantillas"
 linkTitle: "Sistema Plantillas"
-weight: 20
+weight: 10
 menu:
   main:
-    weight: 20
+    weight: 10
 ---
 
 {{% pageinfo %}}
