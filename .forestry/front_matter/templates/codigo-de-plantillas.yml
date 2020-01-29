@@ -12,16 +12,13 @@ fields:
   label: linkTitle
   config:
     required: true
-- type: number
-  name: weight
-  label: weight
-  config:
-    required: true
 - type: text
   name: description
   label: description
   config:
     required: true
-pages:
-- content/en/plantillas/Código plantillas/Nomenclatura basica/nomenclatura-básica.md
-- content/en/plantillas/Código plantillas/código-de-plantillas.md
+- type: number
+  name: weight
+  label: weight
+  config:
+    required: true
