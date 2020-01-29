@@ -1,6 +1,5 @@
 +++
 description = "Código de plantillas que se muestra la nomenclatura del código de plantillas para Adtopy"
-draft = true
 linkTitle = "codigo-plantillas"
 title = "Código de plantillas"
 weight = 3
