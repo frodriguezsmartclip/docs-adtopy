@@ -1,0 +1,16 @@
+---
+label: Código de plantillas
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: linkTitle
+  label: linkTitle
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: description
+  label: description
