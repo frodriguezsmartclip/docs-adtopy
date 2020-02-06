@@ -25,9 +25,9 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 # Use the new Chroma Go highlighter in Hugo.
 #pygmentsUseClassic = true
-#pygmentsOptions = "linenos=table"
+#pygmentsOptions = "linenos=inline"
 # See https://help.farbox.com/pygments.html
-pygmentsStyle = "monokai"
+pygmentsStyle = "tango"
 
 # Configure how URLs look like per section.
 [permalinks]

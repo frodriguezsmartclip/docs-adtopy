@@ -27,11 +27,8 @@
         display: block;
     }
 
-    li li {
-        list-style-type: decimal;
-        display: list-item;
-        color: $green;
-        margin-left: 0.5rem;
+    li li li {
+        
         
         &:hover{
             color: $dark;
@@ -46,11 +43,14 @@
 
     #TableOfContents {
         // Hugo's ToC is a mouthful, this can be used to style the top level h2 entries.
-        > ul > li > ul > li > a {}
+        > ul > li > ul > li > a {
+            list-style-type: decimal;
+            display: list-item;
+            color: $green;
+            margin-left: 0.5rem;
+        }
 
         a {            
-            color: $green;
-
             &:hover {
                 color: $dark;                
             }
