@@ -1,6 +1,12 @@
 //
 // Right side toc
 //
+nav#TableOfContents ul li ul li  a {
+    list-style-type: decimal;
+    display: list-item;
+    color: $green;
+}
+
 .td-toc {
     border-left: 1px solid $border-color;
 
@@ -44,13 +50,15 @@
     #TableOfContents {
         // Hugo's ToC is a mouthful, this can be used to style the top level h2 entries.
         > ul > li > ul > li > a {
-            list-style-type: decimal;
-            display: list-item;
+            /* list-style-type: circle;
+            display: list-item; */
             color: $green;
             margin-left: 0.5rem;
         }
 
         a {            
+            color: $green;
+
             &:hover {
                 color: $dark;                
             }
