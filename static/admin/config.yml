@@ -2,17 +2,18 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 media_folder: static/img
-public_folder: /img
+public_folder: /img/content
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'sistema-plantillas'
+    label: 'Sistema de Plantillas'
+    folder: 'content/es/plantillas'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Titulo', name: 'title', widget: 'string' }
+      - { label: 'Fecha publicación', name: 'date', widget: 'datetime' }
+      - { label: 'LinkTitle', name: 'title', widget: 'string' }
+      - { label: 'Descripcion', name: 'description', widget: 'string' }
+      - { label: 'Peso de la página', name: 'weight', widget: 'integer' }
