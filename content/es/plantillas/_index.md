@@ -8,7 +8,7 @@ menu:
 ---
 
 {{% pageinfo %}}
-Documentación Adtopy v.1.0 (beta)
+Documentación Adtopy v.1.1 (beta)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/frodriguezsmartclip/docs-adtopy)
 {{% /pageinfo %}}

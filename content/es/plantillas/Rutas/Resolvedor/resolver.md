@@ -1,7 +1,7 @@
 ---
 title: "Resolvedor"
 linkTitle: "Resolvedor"
-weight: 2
+weight: 1
 description: >
   Explicación de la función que se encarga de resolver y buscar los widgets para las plantillas.
 ---

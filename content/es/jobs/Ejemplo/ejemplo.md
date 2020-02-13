@@ -1,6 +1,6 @@
 ---
 title: "Ejemplo jobs"
-linkTitle: "ejemplo jobs"
+linkTitle: "Ejemplo jobs"
 weight: 1
 ---
 

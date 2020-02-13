@@ -2,7 +2,7 @@
 // Right side toc
 //
 nav#TableOfContents ul li ul li  a {
-    list-style-type: decimal;
+    list-style-type: inherit;
     display: list-item;
     color: $green;
 }
