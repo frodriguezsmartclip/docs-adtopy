@@ -19,7 +19,7 @@ Ordenado por importancia los .wid:
 
 ### BEHAVIOR
 
-```bash
+```git
 📦BEHAVIOR
  ┣  📂MODAL
  ┃      ┣ 📜MODAL.wid
@@ -28,10 +28,9 @@ Ordenado por importancia los .wid:
  ┗  📜COLLAPSE.wid
 ```
 
-
 ### ELEMENT
 
-```bash
+```git
 📦ELEMENT
  ┣   📂BUTTON
  ┃    ┣   📜ACCEPT.wid
@@ -133,7 +132,7 @@ Ordenado por importancia los .wid:
 
 ### HTML
 
-```bash
+```git
 📦HTML
  ┣     📂CONTAINER
  ┃      ┣ 📜CONTAINER_SIMPLE.wid
@@ -148,7 +147,7 @@ Ordenado por importancia los .wid:
 
 ### LAYOUT
 
-```bash
+```git
 📦LAYOUT
  ┣     📂FOOTER
  ┃      ┣ 📜FOOTER.wid
@@ -183,7 +182,7 @@ Ordenado por importancia los .wid:
 
 ### ESTRUCTURA COMPLETA
 
-```bash
+```git
 📦BEHAVIOR
  ┣   📂MODAL
  ┃      ┣ 📜MODAL.wid
