@@ -13,6 +13,8 @@ El archivo llamado `model/web/objetcs/Page/Page.php` es el encargado de resolver
 En concreto, en la función llamada **getWidgetPaths()** se encarga de resolver esto:
 
 ```php
+// Path: model/web/objetcs/Page/Page.php -> getWidgetPaths()
+
     function getWidgetPaths($isWork=false)
     {
         $def=$this->getPageDefinition();

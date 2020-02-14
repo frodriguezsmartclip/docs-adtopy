@@ -3,5 +3,4 @@
 {{ $minutes := math.Floor (div $readTime 60) }}
 {{ $seconds := mod $readTime 60 }}
 
-<p><i class="fa fa-clock" aria-hidden="true"></i><i> Tiempo lectura: 
-{{ $minutes }} {{ cond (eq $minutes 1) "min." "min." }} {{ $seconds }} {{ cond (eq $seconds 1) "s." "s." }}</i></p>
+<p class="reading-time"><i class="fa fa-clock" aria-hidden="true"></i> Tiempo lectura: {{ $minutes }} {{ cond (eq $minutes 1) "min." "min." }} {{ $seconds }} {{ cond (eq $seconds 1) "s." "s." }}</p>

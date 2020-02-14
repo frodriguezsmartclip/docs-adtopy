@@ -28,7 +28,7 @@ Los últimos valores (cache y statics), no son aplicables para hacer testing ni 
 
 > lib/tests/output/html/templating :file_folder:
 
-Dentro de esta ruta, tenemos que fijarnos que hay **3 carpetas (layouts/  result/ widgets/) ** y **1 fichero .php**. Para hacer un test tendremos que crearnos:
+Dentro de esta ruta, tenemos que fijarnos que hay **3 carpetas (layouts/  result/ widgets/)** y **1 fichero .php**. Para hacer un test tendremos que crearnos:
 
 1. Fichero "Loquesea.php", para lanzar las funciones (Ejemplo: TemplateParse2Test.php)
 2. La carpeta _layouts_, contiene las funciones que se quieren crear para el test.
