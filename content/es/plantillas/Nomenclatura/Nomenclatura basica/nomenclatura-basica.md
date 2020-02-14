@@ -21,3 +21,4 @@ Para entender cómo funciona el sistema de templating de Adtopy, es importante c
 2. Atributos que tiene un widget.
 3. Acciones que se puede hacer en un widget.
 4. Contexto en el que se encuentra.
+5. Uso recursivo de componentes.
