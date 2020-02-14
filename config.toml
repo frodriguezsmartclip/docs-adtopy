@@ -146,3 +146,9 @@ no = 'Lo sentimos. Por favor, cuéntanos <a href="https://github.com/frodriguezs
 #hrefTargetBlank = true
 #angledQuotes = false
 #latexDashes = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      	hardWraps = false
+    	unsafe = true
+    	xHTML = false
