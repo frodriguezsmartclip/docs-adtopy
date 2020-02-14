@@ -19,3 +19,4 @@ Para entender cómo funciona el sistema de templating de Adtopy, es importante c
 
 1. Nombre del widget
 2. Atributos que tiene un widget.
+3. Acciones que se puede hacer en un widget.
