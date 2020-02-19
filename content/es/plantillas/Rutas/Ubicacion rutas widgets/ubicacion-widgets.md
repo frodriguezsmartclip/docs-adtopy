@@ -1,7 +1,7 @@
 ---
 title: "Ubicación rutas widgets"
 linkTitle: "Ubicación rutas"
-weight: 2
+weight: 3
 description: >
   Ubicación y explicación de las rutas de los widgets que el Resolvedor hace para funcionar el sistema de plantillas.
 ---

@@ -2,7 +2,7 @@
 title = "Estructura nueva de Widgets"
 linkTitle = "Estructura nueva de Widgets"
 description = "Estructura nueva de Widgets de la ruta output/html/"
-weight = 5
+weight = 9
 +++
 
 Como vimos anteriormente, los Widgets pueden tener [3 rutas de búsqueda](/plantillas/rutas/ubicacion-rutas-widgets/ubicacion-widgets/). La nueva estructura creada solo afecta a la ruta **/output/html/Widgets/** :file_folder:

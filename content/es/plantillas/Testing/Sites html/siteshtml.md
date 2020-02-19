@@ -1,7 +1,7 @@
 ---
 title: "Sites + templating + widgets"
 linkTitle: "Sites + templating + widgets"
-weight: 2
+weight: 6
 description: >
   Explicación de uso para hacer testing directamente con templates (.wid), widgets y ficheros .php.
 ---

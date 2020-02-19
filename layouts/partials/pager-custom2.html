@@ -1,0 +1,7 @@
+<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
+  <li>
+    <a {{with .Next}}href="{{ .Next.Permalink}}"{{end}} class="btn {{if .Next}} btn-outline-primary{{end}} {{if not .Next}} disabled{{end}}"><span class="mr-1">←</span> {{ T "ui_pager_prev" }}</a>        
+  </li>
+    <a {{with .Prev}}href="{{.Prev.Permalink}}"{{end}} class="btn {{if .Prev}} btn-outline-primary{{end}} {{if not .Prev}} disabled{{end}}">{{ T "ui_pager_next" }} <span class="ml-1">→</span></a>
+  </li>
+</ul>

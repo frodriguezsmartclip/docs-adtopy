@@ -2,7 +2,7 @@
 description = "Nomenclatura básica para entender el sistema de templating de Adtopy."
 linkTitle = "Nomenclatura basica"
 title = "Nomenclatura básica"
-weight = 4
+weight = 8
 +++
 
 Para entender cómo funciona el sistema de templating de Adtopy, es importante conocer ciertas cosas básicas de la nomenclatura.

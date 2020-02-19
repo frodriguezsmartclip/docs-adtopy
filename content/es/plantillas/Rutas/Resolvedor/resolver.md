@@ -1,7 +1,7 @@
 ---
 title: "Resolvedor"
 linkTitle: "Resolvedor"
-weight: 1
+weight: 2
 description: >
   Explicación de la función que se encarga de resolver y buscar los widgets para las plantillas.
 ---
@@ -24,7 +24,8 @@ En concreto, en la función llamada **getWidgetPaths()** se encarga de resolver 
             $widgetPath=$def["WIDGETPATH"];
         }
         $widgetPath[]=$this->id_site[0]->getPagePath($this->path)."/widgets".($isWork===true?"_work":"")."/";
-        // Se incluyen los paths del sitio actual (ojo, no el de la pagina, porque esta pagina podria ser llamada desde otros sites).
+        // Se incluyen los paths del sitio actual 
+        // (ojo, no el de la pagina, porque esta pagina podria ser llamada desde otros sites).
         $curSite=\Registry::getService("site");
         $sitePaths=$curSite->getExtraWidgetPath();
         $widgetPath=array_merge($widgetPath,$sitePaths);
