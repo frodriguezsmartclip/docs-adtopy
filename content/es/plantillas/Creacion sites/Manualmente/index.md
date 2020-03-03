@@ -1,9 +1,9 @@
-+++
-title = "Creación de Sites # Manualmente"
-linkTitle = "Manualmente"
-description = "Creación de Sites (Adtopy) de forma manual"
-weight = 21
-+++
+---
+title: "Creación de Sites # Manualmente"
+linkTitle: "Manualmente"
+description: "Creación de Sites (Adtopy) de forma manual"
+weight: 51
+---
 
 Aquí podemos seguir los pasos a seguir para poder **crear y configurar un nuevo Site para Adtopy, de forma manual.**
 

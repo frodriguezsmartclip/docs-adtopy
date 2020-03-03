@@ -1,21 +1,27 @@
-+++
-title = "Estructura nueva de Widgets"
-linkTitle = "Estructura nueva de Widgets"
-description = "Estructura nueva de Widgets de la ruta output/html/"
-weight = 9
-+++
+---
+title: "Estructura nueva de Widgets"
+linkTitle: "Estructura nueva de Widgets"
+description: "Estructura nueva de Widgets de la ruta output/html/"
+weight: 41
+---
 
 Como vimos anteriormente, los Widgets pueden tener [3 rutas de búsqueda](/plantillas/rutas/ubicacion-rutas-widgets/ubicacion-widgets/). La nueva estructura creada solo afecta a la ruta **/output/html/Widgets/** :file_folder:
+
+
+{{% alert color="success" %}}
 
 ### Estructura nueva Widgets (output/html/)
 
 Ordenado por importancia los .wid:
 
-1. [BEHAVIOR](#behavior)
-2. [ELEMENT](#element)
-3. [HTML](#html)
-4. [LAYOUT](#layout)
-5. [Toda la estructura completa](#estructura-completa)
+- [Estructura nueva Widgets (output/html/)](#estructura-nueva-widgets-outputhtml)
+- [BEHAVIOR](#behavior)
+- [ELEMENT](#element)
+- [HTML](#html)
+- [LAYOUT](#layout)
+- [ESTRUCTURA COMPLETA](#estructura-completa)
+
+{{% /alert %}}
 
 ### BEHAVIOR
 

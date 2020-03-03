@@ -1,9 +1,8 @@
 ---
 title: "Resolvedor"
 linkTitle: "Resolvedor"
-weight: 2
-description: >
-  Explicación de la función que se encarga de resolver y buscar los widgets para las plantillas.
+description: "Explicación de la función que se encarga de resolver y buscar los widgets para las plantillas."
+weight: 11
 ---
 
 ## Resolvedor de rutas

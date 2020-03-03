@@ -1,9 +1,9 @@
-+++
-title = "Creación de nuevos Sites (Adtopy)"
-linkTitle = "4.# Creación nuevos Sites"
-description = "Creación de nuevos sites para la estructura dentro de Adtopy."
-weight = 20
-+++
+---
+title: "Creación de nuevos Sites (Adtopy)"
+linkTitle: "5.# Creación nuevos Sites"
+description: "Creación de nuevos sites para la estructura dentro de Adtopy."
+weight: 50
+---
 
 En esta sección podemos aprender cómo es la **creación de sites para el sistema de plantillas para Adtopy.**
 

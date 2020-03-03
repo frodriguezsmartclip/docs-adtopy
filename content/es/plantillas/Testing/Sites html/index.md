@@ -1,9 +1,8 @@
 ---
 title: "Sites + templating + widgets"
 linkTitle: "Sites + templating + widgets"
-weight: 6
-description: >
-  Explicación de uso para hacer testing directamente con templates (.wid), widgets y ficheros .php.
+description: "Explicación de uso para hacer testing directamente con templates (.wid), widgets y ficheros .php."
+weight: 22
 ---
 
 En esta sección de testing, veremos cómo abordar los tests para ver finalmente como los templates encagan y afectan directamente al diseño final de cada Site.
@@ -15,14 +14,13 @@ Para ello, es importante tener en cuenta la siguiente ruta:
 > /sites/nombreSite/widgets/ :file_folder:
 
 * **nombreSite** pueden ser los siguientes valores:
-    * adtopy
-    * editor
-    * reflection
-    * cache (no aplicable)
-    * statics (no aplicable)
+  * adtopy
+  * editor
+  * reflection
+  * cache (no aplicable)
+  * statics (no aplicable)
 
 Los últimos valores (cache y statics), no son aplicables para hacer testing ni nuevo módulos, templates asociado. Sólo sirven para la caché de ficheros y para los ficheros estáticos del proyecto.
-
 
 ### 2. Ruta de testing
 

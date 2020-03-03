@@ -1,9 +1,8 @@
 ---
 title: "PHPUnit"
 linkTitle: "PHPUnit"
-weight: 5
-description: >
-  Explicación de uso para hacer testing con PHPUnit para el framework.
+description: "Explicación de uso para hacer testing con PHPUnit para el framework."
+weight: 21
 ---
 
 ### 1. Ruta de testing
