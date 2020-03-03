@@ -111,11 +111,11 @@ La función `initializePage` es la encargada de resolver esto, busca en el *path
 Si la función `getWidgetPath` no encuentra los .wid por defecto: *JOB_DEFAULT.wid o JOB_ESPECIAL.wid*, dará un error, ya que no encuentra el widget. No resuelve a un widget por defecto, ya que JM prefiere que de error.
 {{% /alert %}}
 
-![error cargar widget dinamico](/img/public/error-cargar-widget-dinamico.png)
+![error cargar widget dinamico](/img/uploads/error-cargar-widget-dinamico.png)
 
 
 ### Resultado final del widget dinámico
 
 Una vez hayamos [invocado al wid dinámico](#cómo-invocar-a-un-widget-dinámico), si todo ha ido bien, podremos ver el contenido del mismo. :tada: :blush: Ejemplo de una posible salida:
 
-![Ejemplo widget dinamico JobDetailWidget](/img/public/JobDetailWidget.png)
+![Ejemplo widget dinamico JobDetailWidget](/img/uploads/JobDetailWidget.png)
