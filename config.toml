@@ -82,7 +82,7 @@ github_project_repo = "https://github.com/frodriguezsmartclip/docs-adtopy"
 algolia_docsearch = false
 
 # Enable Lunr.js offline search
-offlineSearch = true
+#offlineSearch = true
 
 # User interface configuration
 [params.ui]
