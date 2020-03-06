@@ -1,6 +1,5 @@
 ---
-title: Search Results
+title: Resultados de Búsqueda en Adtopy
 layout: search
-
 ---
 

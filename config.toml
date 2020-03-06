@@ -76,13 +76,13 @@ github_project_repo = "https://github.com/frodriguezsmartclip/docs-adtopy"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 # IMPORTANTE: Descomentando esta linea, sale la busqueda de Google custom search
-#gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+#gcs_engine_id = "005428965223187693942:xqly4fybzsg"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
 
 # Enable Lunr.js offline search
-offlineSearch = false
+offlineSearch = true
 
 # User interface configuration
 [params.ui]

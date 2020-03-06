@@ -9,7 +9,7 @@ other = "Siguiente"
 other = "Leer más"
 
 [ui_search]
-other = "Buscar en docs-adtopy..."
+other = "Buscar en Adtopy..."
 
 # Used in sentences such as "Posted in News"
 [ui_in]
