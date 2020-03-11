@@ -54,7 +54,7 @@ $idJob=$page->job_id;
 [#]
 ```
 
-La forma de llamar a un **widget dinámico** es: 
+La forma de llamar a un **widget dinámico** es:
 `[*:[%nombre_widget_dinamico%]][#]`, puesto con `%` invocando al nombre del widget. A continuación se explica como se configura este nombre.
 
 El encargado de asociar ese nombre del widget dinámico, es el fichero `**JobDetailPage.php**` (o cualquier _'NombrePaginaPage.php_):
@@ -98,7 +98,7 @@ class JobDetailPage extends  \model\web\Page
 
 ### Función que resuelve path del widget dinámico
 
-La función `initializePage` es la encargada de resolver esto, busca en el *path de cada worker_type* que haya una carpeta *widgets*. Realmente, la funcion llamada `getWidgetPath`, es la que se encarga de resolver correctamente la carpeta de widgets para cada worker. 
+La función `initializePage` es la encargada de resolver esto, busca en el *path de cada worker_type* que haya una carpeta *widgets*. Realmente, la funcion llamada `getWidgetPath`, es la que se encarga de resolver correctamente la carpeta de widgets para cada worker.
 
 ```php
     function getWidgetPath($widget="JOB_DEFAULT")
@@ -112,7 +112,6 @@ Si la función `getWidgetPath` no encuentra los .wid por defecto: *JOB_DEFAULT.w
 {{% /alert %}}
 
 ![error cargar widget dinamico](/img/uploads/error-cargar-widget-dinamico.png)
-
 
 ### Resultado final del widget dinámico
 
