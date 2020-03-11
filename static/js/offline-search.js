@@ -58,9 +58,9 @@ $(window).on('load', function() {
 function registerSearchHandler() {
     $searchInput.oninput = function(event) {
     var query = event.target.value;
-      var results = search(query);  // Perform the search
+    var results = search(query);  // Perform the search
 
-      // Render search results
+    // Render search results
     renderSearchResults(results);
 
     // Remove search results if the user empties the search phrase input field
@@ -73,22 +73,23 @@ function registerSearchHandler() {
 function renderSearchResults(results) {
     // Create a list of results
     if (results.length > 0) {
-    var ul = document.createElement('ul');
-    results.forEach(function(result) {
-        // Create result item
-        var li = document.createElement('li');
-        li.innerHTML = '<a href="' + result.ref + '">' + resultDetails[result.ref].title + '</a><br>' + resultDetails[result.ref].excerpt + '...';
-        ul.appendChild(li);
-    });
+        var ul = document.createElement('ul');
+        results.forEach(function(result) {
+            // Create result item
+            var li = document.createElement('li');
+            li.innerHTML = '<a href="' + result.ref + '">' + resultDetails[result.ref].title + '</a><br>' + resultDetails[result.ref].excerpt.substring(0,50) + '...';
+            ul.appendChild(li);
+        });
 
-      // Remove any existing content so results aren't continually added as the user types
-    while ($searchResults.hasChildNodes()) {
-        $searchResults.removeChild(
-        $searchResults.lastChild
-        );
-    }
+        // Remove any existing content so results aren't continually added as the user types
+        while ($searchResults.hasChildNodes()) {
+            $searchResults.removeChild(
+            $searchResults.lastChild
+            );
+        }
     } else {
-        $searchResults.innerHTML = '<ul><li>No results found</li></ul>';
+        $searchResults.innerHTML = '<ul class="no-results"><li>Ningún resultado...</li></ul>';
+        //$searchResults.innerHTML = '';
         }
     // Render the list
     $searchResults.appendChild(ul);

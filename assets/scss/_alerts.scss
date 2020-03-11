@@ -1,21 +1,123 @@
 // Style alert boxes.
 
 .alert {
+    position: relative;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    border-style: solid;
+    border-width: 0 0 0 4px;
+}
+
+/*
+Para usar los nuevos alerts personalizados, usar dentro de un .md markdown, así:
+
+{{% alert title="titlo que sea" color="codigo_de_alerta" %}}
+lorem ipsum....
+{{% /alert %}}
+
+codigo_de_alerta puede ser: [nota, error, info, exito]
+*/
+
+// Icono de alerta: NOTA
+.alert-nota{
+    border-color: $nota;    
+
+    .alert-heading {
+        color: $nota;                
+        padding: 0.7rem 1.50rem;
+        border-bottom: .05rem solid rgba($nota, 0.1);
+        background-color: rgba($nota, 0.1);
+    }
+    .alert-heading:before{
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        margin-right: 0.5rem;
+        content: "\f044";
+    }    
+}
+
+// Icono de alerta: ERROR
+.alert-error{
+    border-color: $error;    
+
+    .alert-heading {
+        color: $error;                
+        padding: 0.7rem 1.50rem;
+        border-bottom: .05rem solid rgba($error, 0.1);
+        background-color: rgba($error, 0.1);
+    }
+    .alert-heading:before{
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        margin-right: 0.5rem;
+        content: "\f06a";
+    }
+}
+
+// Icono de alerta: INFO
+.alert-info{
+    border-color: $info;    
+
+    .alert-heading {
+        color: $info;                
+        padding: 0.7rem 1.50rem;
+        border-bottom: .05rem solid rgba($info, 0.1);
+        background-color: rgba($info, 0.1);
+    }
+    .alert-heading:before{
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        margin-right: 0.5rem;
+        content: "\f05a";
+    }    
+}
+
+// Icono de alerta: EXITO
+.alert-exito{
+    border-color: $exito;    
+
+    .alert-heading {
+        color: $exito;                
+        padding: 0.7rem 1.50rem;
+        border-bottom: .05rem solid rgba($exito, 0.1);
+        background-color: rgba($exito, 0.1);
+    }
+    .alert-heading:before{
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        margin-right: 0.5rem;
+        content: "\f164";
+    }    
+}
+
+
+.alert {
     font-weight: $font-weight-medium;
-    background: $white;
+    background: #F5F7F9;
     color: inherit;
-    border-radius: 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);   
 
     @each $color, $value in $theme-colors {
         &-#{$color} {
-            & .alert-heading {
-                color: $value;
-            }
-
             border-style: solid;
             border-color: $value;
             border-width: 0 0 0 4px;
+
+            & .alert-heading:before{
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                margin-right: 0.5rem;
+                content: "\f05a";
+            }
+            & .alert-heading {
+                color: $value;                
+                padding: 0.7rem 1.50rem;
+                border-bottom: .05rem solid rgba($value, 0.1);
+                background-color: rgba($value, 0.1);
+            }            
         }
     }
 }
 
+p.content-alert { padding: 1.75rem 1.25rem; }

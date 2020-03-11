@@ -24,7 +24,7 @@ Dentro de ese site, la vista nueva para una página (ejemplo JobDetail), hay que
 
 Si miramos el archivo **JobDetail.php**, podremos ver la llamada al **widget dinámico** `JobDetailWidget`
 
-{{% alert title="Nota" color="warning" %}}
+{{% alert title="Nota" color="nota" %}}
 Si la función `getWidgetPath` no encuentra los .wid por defecto: *JOB_DEFAULT.wid o JOB_ESPECIAL.wid*, dará un error, ya que no encuentra el widget. No resuelve a un widget por defecto, ya que JM prefiere que de error.
 {{% /alert %}}
 
@@ -107,7 +107,7 @@ La función `initializePage` es la encargada de resolver esto, busca en el *path
     }
 ```
 
-{{% alert title="Importante" color="danger" %}}
+{{% alert title="Importante" color="error" %}}
 Si la función `getWidgetPath` no encuentra los .wid por defecto: *JOB_DEFAULT.wid o JOB_ESPECIAL.wid*, dará un error, ya que no encuentra el widget. No resuelve a un widget por defecto, ya que JM prefiere que de error.
 {{% /alert %}}
 

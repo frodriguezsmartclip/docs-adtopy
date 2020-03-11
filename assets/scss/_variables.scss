@@ -21,7 +21,6 @@ $primary: #30638E !default;
 $primary-light: lighten($primary, 75%) !default;
 $secondary: #FFA630 !default;
 $success: #079011 !default;
-$info: #C0E0DE !default;
 $warning: #FFA630 !default;
 $danger: #dc3545 !default;
 $white: #fff !default;
@@ -41,6 +40,13 @@ $gray-800: #333 !default;
 $gray-900: #222 !default;
 $black: #000 !default;
 $green: #006808 !default;
+
+// variables usadas para bloques de alertas: assets\scss\_alerts.scss (layouts\shortcodes\alert.html)
+$nota: #FFA630 !default;
+$error: #dc3545 !default;
+$info: #30638E !default;
+$exito: #079011 !default;
+
 
 $code-color: darken($secondary, 20%) !default;
 

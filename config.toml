@@ -79,10 +79,14 @@ github_project_repo = "https://github.com/frodriguezsmartclip/docs-adtopy"
 #gcs_engine_id = "005428965223187693942:xqly4fybzsg"
 
 # Enable Algolia DocSearch
-algolia_docsearch = false
+#algolia_docsearch = false
 
 # Enable Lunr.js offline search
-#offlineSearch = true
+offlineSearch = true
+
+[outputs]
+home = [ "HTML", "JSON"]
+page = [ "HTML" ]
 
 # User interface configuration
 [params.ui]
