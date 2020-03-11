@@ -88,10 +88,15 @@ El siguiente código veremos los **eventos**:
 <body>
 
 <script>
+    //NO es necesario, ya que no se está parseando HTML para encontrar Expandos, etc... 
+    //Solo se está usando Siviglia para crear clases.
+
+    /*
     var obj1={"uno": 1};
     var parser=new Siviglia.UI.HTMLParser();
     parser.addContext("/",obj1);
     parser.parse($(document.body));
+    */
 </script>
 </body>
 </html>

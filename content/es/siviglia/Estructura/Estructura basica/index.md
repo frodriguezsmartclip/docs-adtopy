@@ -75,7 +75,13 @@ La cosa importante a tener en cuenta, sería que siempre tiene que haber antes d
 ```php
 <script>
     var parser=new Siviglia.UI.HTMLParser();
-    parser.addContext("/",objeto_con_contexto);   // explicado más adelante
+    // Nota: NO es requerido añadir un contexto, es opcional.
+    // Más adelante se explica en 
+    //parser.addContext("/",objeto_con_contexto);
     parser.parse($(document.body));
 </script>
 ```
+
+Nota: NO es requerido añadir un contexto, es opcional.
+
+Más adelante se explica en Expandos el uso de contextos (ver **[ejemplo uso/expandos](/siviglia/ejemplos-uso/expandos/)**)
