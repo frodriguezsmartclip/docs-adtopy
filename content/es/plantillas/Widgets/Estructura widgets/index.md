@@ -7,9 +7,6 @@ weight: 41
 
 Como vimos anteriormente, los Widgets pueden tener [3 rutas de búsqueda](/plantillas/rutas/ubicacion-rutas-widgets/ubicacion-widgets/). La nueva estructura creada solo afecta a la ruta **/output/html/Widgets/** :file_folder:
 
-
-{{% alert color="success" %}}
-
 ### Estructura nueva Widgets (output/html/)
 
 Ordenado por importancia los .wid:
@@ -20,8 +17,6 @@ Ordenado por importancia los .wid:
 - [HTML](#html)
 - [LAYOUT](#layout)
 - [ESTRUCTURA COMPLETA](#estructura-completa)
-
-{{% /alert %}}
 
 ### BEHAVIOR
 
