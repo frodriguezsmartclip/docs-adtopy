@@ -86,7 +86,7 @@ Una variable usada en la plantilla, lo normal es que se inicialice antes, es dec
 
 Además, de que las variables que se pongan dentro de del *methods->preInitialize()* se pueden usar en cualquier, sivValue o sivLoop, con /*nombre_variable o *nombre_variable.
 
-{{% alert title="Importante" color="info" %}}
+{{% alert title="Importante" color="error" %}}
 
 El ciclo de vida de un widget es: **preInitialize() -> render() -> initialize()**.
 

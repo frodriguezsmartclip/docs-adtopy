@@ -7,7 +7,6 @@ weight: 32
 
 Para entender cómo funciona el sistema de templating de Adtopy, es importante conocer ciertas cosas avanzadas de la nomenclatura.
 
-{{% alert color="success" %}}
 ### Conceptos avanzados
 
 - [Conceptos avanzados](#conceptos-avanzados)
@@ -15,7 +14,6 @@ Para entender cómo funciona el sistema de templating de Adtopy, es importante c
 - [Parametros por referencia y/o valor](#parametros-por-referencia-yo-valor)
 - [Traducción para cadenas de texto](#traducci%c3%b3n-para-cadenas-de-texto)
 - [Usar php dentro de una plantilla .wid](#usar-php-dentro-de-una-plantilla-wid)
-{{% /alert %}}
 
 Para ello, vamos a dividir dicha nomenclatura en los siguientes apartados:
 

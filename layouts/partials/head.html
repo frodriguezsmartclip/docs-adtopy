@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script> -->
 {{ hugo.Generator }}
 {{ if eq (getenv "HUGO_ENV") "production" }}
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -20,12 +20,9 @@
 {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
 {{ partialCached "head-css.html" . "asdf" }}
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+<script src="/js/jquery.min.js" defer></script>
 {{ if and (.Site.Params.offlineSearch) (not .Site.Params.gcs_engine_id) }}
-<script src="https://unpkg.com/lunr@2.1.6/lunr.js"></script>
-<script src="/js/offline-search.js"></script>
+<script src="/js/lunr.js" defer></script>
+<script src="/js/offline-search.js" defer></script>
 {{end}}
 {{ partial "hooks/head-end.html" . }}
