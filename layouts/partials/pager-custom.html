@@ -2,6 +2,7 @@
   <li>
     <a {{if .NextInSection}}href="{{.NextInSection.Permalink}}"{{end}} class="btn {{if .NextInSection}} btn-outline-primary{{end}} {{if not .NextInSection}} disabled{{end}}"><span class="mr-1">←</span> {{ T "ui_pager_prev" }}</a>        
   </li>
+  <li>
     <a {{if .PrevInSection}}href="{{.PrevInSection.Permalink}}"{{end}} class="btn {{if .PrevInSection}} btn-outline-primary{{end}} {{if not .PrevInSection}} disabled{{end}}">{{ T "ui_pager_next" }} <span class="ml-1">→</span></a>
   </li>
 </ul>

@@ -1,6 +1,18 @@
 // Code formatting.
-// Comment all code CSS for avoiding these css class related to code variables
 
+// Inline code to solve this: https://web.dev/color-contrast/
+code {
+    font-size: $code-font-size;
+    color: $code-color;
+    word-break: break-word;
+    font-weight: bold;
+    // Streamline the style when inside anchors to avoid broken underline and more
+    a > & {
+      color: inherit;
+    }
+  }
+
+// Comment all code CSS for avoiding these css class related to code variables
 /*
 .td-content {
 	// Highlighted code.

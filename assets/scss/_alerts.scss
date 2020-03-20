@@ -24,10 +24,10 @@ codigo_de_alerta puede ser: [nota, error, info, exito]
     border-color: $nota;    
 
     .alert-heading {
-        color: $nota;                
+        color: darken($nota, 30%);
         padding: 0.7rem 1.50rem;
         border-bottom: .05rem solid rgba($nota, 0.1);
-        background-color: rgba($nota, 0.1);
+        background-color: rgba($nota, 0.05);
     }
     .alert-heading:before{
         font-family: 'Font Awesome 5 Free';
@@ -42,10 +42,10 @@ codigo_de_alerta puede ser: [nota, error, info, exito]
     border-color: $error;    
 
     .alert-heading {
-        color: $error;                
+        color: darken($error, 20%);                
         padding: 0.7rem 1.50rem;
         border-bottom: .05rem solid rgba($error, 0.1);
-        background-color: rgba($error, 0.1);
+        background-color: rgba($error, 0.05);
     }
     .alert-heading:before{
         font-family: 'Font Awesome 5 Free';
@@ -60,10 +60,10 @@ codigo_de_alerta puede ser: [nota, error, info, exito]
     border-color: $info;    
 
     .alert-heading {
-        color: $info;                
+        color: darken($info, 20%);                
         padding: 0.7rem 1.50rem;
         border-bottom: .05rem solid rgba($info, 0.1);
-        background-color: rgba($info, 0.1);
+        background-color: rgba($info, 0.05);
     }
     .alert-heading:before{
         font-family: 'Font Awesome 5 Free';
@@ -78,10 +78,10 @@ codigo_de_alerta puede ser: [nota, error, info, exito]
     border-color: $exito;    
 
     .alert-heading {
-        color: $exito;                
+        color: darken($exito, 20%);                
         padding: 0.7rem 1.50rem;
         border-bottom: .05rem solid rgba($exito, 0.1);
-        background-color: rgba($exito, 0.1);
+        background-color: rgba($exito, 0.05);
     }
     .alert-heading:before{
         font-family: 'Font Awesome 5 Free';

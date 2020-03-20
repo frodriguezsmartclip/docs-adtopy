@@ -7,7 +7,9 @@ weight: 21
 
 ### 1. Ruta de testing
 
-> lib/tests/output/html/templating :file_folder:
+{{% alert title="Ruta de testing" color="nota" %}}
+  lib/tests/output/html/templating :file_folder:
+{{% /alert %}}
 
 Dentro de esta ruta, tenemos que fijarnos que hay **3 carpetas (layouts/  result/ widgets/)** y **1 fichero .php**. Para hacer un test tendremos que crearnos:
 

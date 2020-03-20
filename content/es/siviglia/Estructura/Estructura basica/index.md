@@ -37,7 +37,7 @@ Veamos con más detalle qué es cada cosa:
 
 Veamos qué son cada fichero .js puesto en la cabecera `<head>`
 
-```php
+```html
     // Jquery requerido
     <script src="/node_modules/jquery/dist/jquery.js"></script>  
 
@@ -59,7 +59,7 @@ Veamos qué son cada fichero .js puesto en la cabecera `<head>`
 
 En la sección siguiente, escribiremos el código javascript para que Siviglia lo interprete:
 
-```php
+```html
 <script>
     // Codigo javascript referido a Siviglia
 </script>
@@ -72,7 +72,7 @@ Dentro del `<body>` pondremos la nomenclatura referida a Siviglia y el uso de pa
 
 La cosa importante a tener en cuenta, sería que siempre tiene que haber antes del cierre del `</body>` el siguiente código `<script>`:
 
-```php
+```html
 <script>
     var parser=new Siviglia.UI.HTMLParser();
     // Nota: NO es requerido añadir un contexto, es opcional.

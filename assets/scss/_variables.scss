@@ -4,7 +4,7 @@ Bootstrap variables overrides for theme.
 See https://github.com/twbs/bootstrap/pull/23260
 */
 
-@fa-font-path :        "../webfonts";
+//@fa-font-path :        "../webfonts";
 
 // Bootstrap flags. For more, see https://getbootstrap.com/docs/4.0/getting-started/theming/
 $enable-gradients: true;
@@ -56,7 +56,8 @@ $info: #30638E !default;
 $exito: #079011 !default;
 
 
-$code-color: darken($secondary, 20%) !default;
+//$code-color: darken($secondary, 20%) !default;
+$code-color: #D22D32 !default;
 
 // UI element colors
 

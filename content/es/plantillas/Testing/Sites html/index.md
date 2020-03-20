@@ -11,7 +11,9 @@ En esta sección de testing, veremos cómo abordar los tests para ver finalmente
 
 Para ello, es importante tener en cuenta la siguiente ruta:
 
-> /sites/nombreSite/widgets/ :file_folder:
+{{% alert title="Ruta carpetas" color="nota" %}}
+  /sites/nombreSite/widgets/ :file_folder:
+{{% /alert %}}
 
 * **nombreSite** pueden ser los siguientes valores:
   * adtopy
@@ -24,7 +26,9 @@ Los últimos valores (cache y statics), no son aplicables para hacer testing ni 
 
 ### 2. Ruta de testing
 
-> lib/tests/output/html/templating :file_folder:
+{{% alert title="Ruta de testing" color="nota" %}}
+  lib/tests/output/html/templating :file_folder:
+{{% /alert %}}
 
 Dentro de esta ruta, tenemos que fijarnos que hay **3 carpetas (layouts/  result/ widgets/)** y **1 fichero .php**. Para hacer un test tendremos que crearnos:
 
