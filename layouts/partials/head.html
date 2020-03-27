@@ -20,7 +20,7 @@
 {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
 {{ partialCached "head-css.html" . "asdf" }}
-<script src="/js/jquery.min.js" defer></script>
+<script src="/js/jquery.min.js" async></script>
 {{ if and (.Site.Params.offlineSearch) (not .Site.Params.gcs_engine_id) }}
 <script src="/js/lunr.js" defer></script>
 <script src="/js/offline-search.js" defer></script>
