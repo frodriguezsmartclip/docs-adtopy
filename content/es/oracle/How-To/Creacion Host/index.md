@@ -37,7 +37,7 @@ Si necesitamos que la IP pública de esta máquina sea permanente, primero tendr
 8. En el apartado **Dirección IP pública** eligiremos **IP pública reservada** y, más abajo, seleccionamos la IP que acabas de reservar para esta instancia.
 9. Una vez pulses en **Actualizar**, ya estará asociada la IP permanente.
 
-### Conectar a la instancia vía
+### Conectarse a la instancia
 
 Para acceder a la máquina que acabamos de levantar, solo necesitarás la clave privada y la IP que acabamos de asociar (nota: volver a entrar en **Recursos informáticos > Instancias** y ver la IP Pública asociada al nombre de nuestra instancia creada).
 
