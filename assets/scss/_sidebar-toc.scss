@@ -4,7 +4,7 @@
 nav#TableOfContents ul li ul li  a {
     list-style-type: decimal;
     display: list-item;
-    color: $green;
+    color: $color-toc;
 }
 
 .td-toc {
@@ -24,8 +24,8 @@ nav#TableOfContents ul li ul li  a {
 
     a {
         display: block;
-        font-weight: $font-weight-normal;
-        padding-bottom: .55rem;
+        font-weight: $font-weight-normal;        
+        padding: 5px 10px 5px 10px;
     }
 
     li {
@@ -46,18 +46,20 @@ nav#TableOfContents ul li ul li  a {
             font-weight: $font-weight-medium;
         }
     }
+    //.td-toc #TableOfContents > ul > li > ul > li > a.activeToc
 
     #TableOfContents {
         // Hugo's ToC is a mouthful, this can be used to style the top level h2 entries.
         > ul > li > ul > li > a {
             /* list-style-type: circle;
             display: list-item; */
-            color: $green;
+            color: $color-toc;
             margin-left: 0.5rem;
         }
+        a.activeToc { border-left: 4px solid $color-toc; font-weight: bold; padding-left: 0.5rem; }        
 
         a {            
-            color: $green;
+            color: $color-toc;
 
             &:hover {
                 color: $dark;                
